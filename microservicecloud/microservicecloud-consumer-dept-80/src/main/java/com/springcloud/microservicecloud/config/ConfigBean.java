@@ -34,7 +34,7 @@ public class ConfigBean {ASDIAHDKlsDHJksDVJNDBkaNajDFNkdBH
 
     */
    dfgas,好饿呀
-    yu......KDsvKZXLvAKcKchAKhAKSAKchajcja
+    yu......KDsvKZXLvAKc啊饿哦日KchAKhAKSAKchajcja
    @Bean
     public IRule myRule(){
         return new RandomRule();
