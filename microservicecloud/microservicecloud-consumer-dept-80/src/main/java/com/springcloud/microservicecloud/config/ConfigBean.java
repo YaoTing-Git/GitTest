@@ -18,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
  * 是一种简单便捷的访问restful服务模板类，是Spring提供的用于访问Rest服务的客户端模板工具集
  */
 @Configuration
-public class ConfigBean {
+public class ConfigBean {ASDIAHDKlsDHJksDVJNDBkaNajDFNkdBH
     @Bean
     @LoadBalanced  //负载均衡，LoadBalanced注解放在restTemplate方法上了，实现负载均衡的效果
     public RestTemplate restTemplate(){
