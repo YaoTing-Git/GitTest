@@ -26,7 +26,7 @@ public class ConfigBean {ASDIAHDKlsDHJksDVJNDBkaNajDFNkdBH
     }
     //目的实现负载均衡：轮询算法
     /*
-啊，怎么github会这么慢啊卧槽
+啊，怎么github会这么慢啊卧槽dlishg
     @Bean
     public IRule myRule(){
         return new RoundRobinRule();
