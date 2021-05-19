@@ -33,12 +33,14 @@ public class ConfigBean {ASDIAHDKlsDHJksDVJNDBkaNajDFNkdBH
     }
 
     */
-   
+   dfgas,好饿呀
    @Bean
     public IRule myRule(){
         return new RandomRule();
     }
-
+    public IRule godDamnFuckingMethod(){
+        return new RandomRule();
+    }
 
     /*
     @Bean
