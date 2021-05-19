@@ -1,0 +1,4 @@
+com\springcloud\microservicecloud\pojo\Dept.class
+com\springcloud\microservicecloud\service\DeptClientServiceFallbackFactory.class
+com\springcloud\microservicecloud\service\DeptClientService.class
+com\springcloud\microservicecloud\service\DeptClientServiceFallbackFactory$1.class

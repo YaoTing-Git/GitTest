@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springcloud.microservicecloud.mapper.DeptMapper">
+    <select id="getDeptById" parameterType="Long" resultType="com.springcloud.microservicecloud.pojo.Dept">
+        select deptno,deptname,db_source from department where deptno=#{deptNo}
+    </select>
+    <select id="getAllDepts" resultType="com.springcloud.microservicecloud.pojo.Dept">
+        select deptno,deptname,db_source from department
+    </select>
+    <insert id="addDept" parameterType="com.springcloud.microservicecloud.pojo.Dept">
+        insert into department (deptname,db_source)values (#{deptname},DATABASE())
+    </insert>
+</mapper>

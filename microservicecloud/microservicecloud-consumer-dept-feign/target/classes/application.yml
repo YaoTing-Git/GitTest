@@ -1,0 +1,27 @@
+server:
+  port: 80
+feign:
+  hystrix:
+    enabled: true   #开启feign的hystrix支持,默认是false
+  client:
+    config:
+      default:
+        retryer: feign.Retryer.Default
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservicecloud-dept80
+    prefer-ip-address: true #访问路径，可以显示IP地址
+spring:
+  application:
+    name: microservicecloud-dept80
+ribbon:
+  ConnectTimeout: 3000   #请求连接超时时间
+  ReadTimeout: 3000			 #请求处理的超时时间
+  MaxAutoRetries: 1			 #对当前实例的重试次数
+  MaxAutoRetriesNextServer: 2 #切换实例的重试次数
+  OkToRetryOnAllOperations: true #对所有请求都进行重试
+  restclient:
+    enabled: true
