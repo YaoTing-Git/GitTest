@@ -19,7 +19,7 @@ import org.springframework.web.client.RestTemplate;
  */
 @Configuration
 public class ConfigBean {ASDIAHDKlsDHJksDVJNDBkaNajDFNkdBH
-    @Bean  你tmd看什么？！出来单挑啊
+    @Bean  你tmd看什么？出来单挑啊！
     @LoadBalanced  //负载均衡，LoadBalanced注解放在restTemplate方法上了，实现负载均衡的效果
     public RestTemplate restTemplate(){
         return  new RestTemplate();
